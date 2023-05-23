@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foguelét</title>
+    <style>
+
+        body
+        {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(0deg,rgb(121, 232, 252),rgb(17, 17, 34) 70%);
+            overflow: hidden;
+        }
+        .foguete
+        {
+            position: absolute;
+            top: 700px;
+            left: 750px;
+        }
+        .chao
+        {
+            position: fixed;
+            top: 750px;
+            left: 690px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <img src="OIP-removebg-preview.png" class="chao">  
+ <img  src="foguete.gif" width="80px" class="foguete" id="foguete" onclick="voar();">
+
+  
+</body>
+<script src="jquery-3.6.4.min.js"></script>
+<script src="script.js"></script>
+</html>
